@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Ranfod home page opend successfully]]>
+    </line>
+    <line>
+      <![CDATA[Admin home page opend succeessfully]]>
+    </line>
+    <line>
+      <![CDATA[Branch page open successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23481" started-at="2015-12-01T13:23:41Z" finished-at="2015-12-01T13:24:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23481" started-at="2015-12-01T13:23:41Z" finished-at="2015-12-01T13:24:05Z">
+      <class name="com.ranford.RABP.testsuites.BP_TS1_ValidateBranches">
+        <test-method status="PASS" signature="preConditin()[pri:0, instance:com.ranford.RABP.testsuites.BP_TS1_ValidateBranches@34d63f]" name="preConditin" is-config="true" duration-ms="16992" started-at="2015-12-01T18:53:41Z" finished-at="2015-12-01T18:53:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Ranfod home page opend successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preConditin -->
+        <test-method status="PASS" signature="testCase()[pri:0, instance:com.ranford.RABP.testsuites.BP_TS1_ValidateBranches@34d63f]" name="testCase" duration-ms="5045" started-at="2015-12-01T18:53:58Z" finished-at="2015-12-01T18:54:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Admin home page opend succeessfully]]>
+            </line>
+            <line>
+              <![CDATA[Branch page open successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.ranford.RABP.testsuites.BP_TS1_ValidateBranches@34d63f]" name="postCondition" is-config="true" duration-ms="1413" started-at="2015-12-01T18:54:03Z" finished-at="2015-12-01T18:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.ranford.RABP.testsuites.BP_TS1_ValidateBranches -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
